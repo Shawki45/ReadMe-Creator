@@ -3,21 +3,19 @@ function renderLicenseBadge(license) {
   return `![${license}](https://img.shields.io/badge/License-${license}-blue.svg)`;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+
 function renderLicenseLink(license) {
   return `- [License](#license)`;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// generates the badge.
 function renderLicenseSection(license) {
   return `## License
  ${renderLicenseBadge(license)}`;
   // call the badge here
 }
 
-// TODO: Create a function to generate markdown for README
+// will genrate the readme
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -27,7 +25,7 @@ function generateMarkdown(data) {
   ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Questions](#questions)
 ${renderLicenseLink(data.license)}
   
   
@@ -55,6 +53,7 @@ ${renderLicenseLink(data.license)}
   ## Tests
    ${data.test}
   ## Questions
+  ${data.questions}
 `;
 }
 

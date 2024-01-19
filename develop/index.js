@@ -1,8 +1,8 @@
-
+// this will have the questions work.
 const inquirer = require('inquirer')
 const generateMarkdown = require('../utils/generateMarkdown')
 const fs = require('fs')
-
+// questions for the readme
 const questions = [{
     type:"input",
     name:"title",
@@ -18,6 +18,22 @@ const questions = [{
     name:"license",
     message:"which do you prefer?",
     choices: ['MIT', 'GPlv3', 'GPL']
+},
+{
+    type:"input",
+    name:"intall",
+    message:"How do you install it?"
+
+},
+{
+    type:"input",
+    name:"usage",
+    message:"How do i use it?"
+},
+{
+    type:"input",
+    name:"questions",
+    message:"Where you can reach me?"
 }
 ];
 
@@ -33,7 +49,7 @@ function writeToFile(fileName, data) {
 
 }
 
-// TODO: Create a function to initialize app
+
 async function init() {
  const answers = await inquirer.prompt(questions);
  // pass this stuff to the output function
