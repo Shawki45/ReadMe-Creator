@@ -48,7 +48,8 @@ const questions = [{
 {
     type:"list",
     name:"tests",
-    message:"How do you like it?"
+    message:"How do you like it?",
+    choices: ['multiple choice', 'short written answers', 'long written answers']
 }
 ];
 
