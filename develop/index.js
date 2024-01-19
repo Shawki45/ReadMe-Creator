@@ -7,6 +7,10 @@ const questions = [{
     type:"input",
     name:"title",
     message:"what is your project name? "
+
+    type:"choices",
+    name:"project",
+    message:"What is the project about?"
 }];
 
 // write README file
