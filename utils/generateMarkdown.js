@@ -43,15 +43,18 @@ ${renderLicenseLink(data.license)}
   
   
   
-  
   ## Features
-  ${data.usage}
+  ${data.features}
+
   
   ## How to Contribute
   ${data.contribute}
 
+
   ## Tests
-   ${data.test}
+   ${data.tests}
+
+
   ## Questions
   ${data.questions}
 `;

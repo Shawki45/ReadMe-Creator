@@ -1,12 +1,12 @@
-# Readme-Creator
+# ReadMe-Creator
 
   ## Description
-  chicken 
+  It is creating a readme file using node js. I believe i have accomplished that goal, but yea it to create a readme.
  
   ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Questions](#questions)
 - [License](#license)
   
   
@@ -16,7 +16,7 @@
   
   ## Usage
   
-  undefined
+  when you open the app you make an account, and than you click on begin and the quiz app will begin.
   
 
   
@@ -27,11 +27,12 @@
   
   
   ## Features
-  
+  when you open the app you make an account, and than you click on begin and the quiz app will begin.
   
   ## How to Contribute
   undefined
 
-  ## tests
+  ## Tests
    undefined
-  
+  ## Questions
+  You can reach me at my email shawguy@yahoo.com or my github which is https://github.com/Shawki45.

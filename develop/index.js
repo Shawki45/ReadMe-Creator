@@ -34,6 +34,21 @@ const questions = [{
     type:"input",
     name:"questions",
     message:"Where you can reach me?"
+},
+{
+    type:"input",
+    name:"features",
+    message:"What comes with it?"
+},
+{
+    type:"input",
+    name:"contribute",
+    message:"How can i help?"
+},
+{
+    type:"list",
+    name:"tests",
+    message:"How do you like it?"
 }
 ];
 
