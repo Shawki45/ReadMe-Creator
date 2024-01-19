@@ -1,7 +1,7 @@
 # ReadMe-Creator
 
   ## Description
-  It is creating a readme file using node js. I believe i have accomplished that goal, but yea it to create a readme.
+  It is about using node js to create a readme.
  
   ## Table of Contents 
 - [Installation](#installation)
@@ -16,7 +16,7 @@
   
   ## Usage
   
-  when you open the app you make an account, and than you click on begin and the quiz app will begin.
+  You create an account first than after logging in you click begin.
   
 
   
@@ -25,14 +25,17 @@
   
   
   
-  
   ## Features
-  when you open the app you make an account, and than you click on begin and the quiz app will begin.
+  You can filter out what kind of quiz you want to take.
+
   
   ## How to Contribute
-  undefined
+  By leaving good reviews and also suggestions if it needs improvement.
+
 
   ## Tests
-   undefined
+   multiple choice
+
+
   ## Questions
-  You can reach me at my email shawguy@yahoo.com or my github which is https://github.com/Shawki45.
+  You can reach me at email, Shawguy@yahoo.com or my git hub https://github.com/Shawki45
