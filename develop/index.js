@@ -1,25 +1,33 @@
-// TODO: Include packages needed for this application
+
 const inquirer = require('inquirer')
 const generateMarkdown = require('../utils/generateMarkdown')
+const fs = require('fs')
 
-// TODO: Create an array of questions for user input
 const questions = [{
     type:"input",
     name:"title",
     message:"what is your project name? "
-
-    type:"choices",
-    name:"project",
+},
+   { type:"input",
+    name:"description",
     message:"What is the project about?"
-}];
+
+},
+{
+    type:"list",
+    name:"license",
+    message:"which do you prefer?",
+    choices: ['MIT', 'GPlv3', 'GPL']
+}
+];
 
 // write README file
 function writeToFile(fileName, data) {
     // markdown
  const contents = generateMarkdown(data)
  // write file 
- fs.writeToFile(filename, contents, (err)=> {
-   err? new Error("Write file blew up"): console.log("Normal Error");
+ fs.writeFile(fileName, contents, (err)=> {
+   err? new Error("Write file blew up"): console.log("ReadMe created");
 
  })
 
